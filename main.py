@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 def main():
     load_dotenv()
 
-    base_model = os.getenv("BASE_MODEL")
+    base_model = os.getenv("OLLAMA_BASE_MODEL")
     hf_token = os.getenv("HF_TOKEN")
     
     store = DocumentStore()
