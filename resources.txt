@@ -1,3 +1,7 @@
 streamlit
 chromadb
 sentence-transformers
+python-dotenv
+langchain
+langchain-community
+pdfplumber
